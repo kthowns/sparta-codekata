@@ -1,4 +1,4 @@
-package sparta_codekata;
+package codes;
 
 public class Substract {
 	public static void main(String[] args) {
