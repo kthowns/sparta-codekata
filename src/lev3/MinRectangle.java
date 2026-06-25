@@ -8,20 +8,8 @@ public class MinRectangle {
         int yMax = 0;
         
         for(int i=0; i<n; i++){
-            int x = sizes[i][0];
-            int y = sizes[i][1];
-            
-            if(x<y){
-                x = sizes[i][1];
-                y = sizes[i][0];
-            }
-            
-            if(x > xMax){
-                xMax = x;
-            }
-            if(y > yMax){
-                yMax = y;
-            }
+        	xMax = Math.max(xMax, Math.max(sizes[i][0], sizes[i][1]));
+        	yMax = Math.max(yMax, Math.min(sizes[i][0], sizes[i][1]));
         }
         
         return xMax * yMax;
