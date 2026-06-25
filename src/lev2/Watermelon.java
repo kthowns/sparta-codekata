@@ -1,4 +1,4 @@
-package codes;
+package lev2;
 
 public class Watermelon {
     public String solution(int n) {

@@ -1,4 +1,4 @@
-package codes;
+package lev1;
 
 public class Substract {
 	public static void main(String[] args) {

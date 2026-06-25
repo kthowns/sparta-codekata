@@ -1,4 +1,4 @@
-package codes;
+package lev2;
 
 public class DivisorPlusMinus {
     public int solution(int left, int right) {

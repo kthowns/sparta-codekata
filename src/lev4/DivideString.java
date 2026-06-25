@@ -1,4 +1,4 @@
-package codes;
+package lev4;
 
 class DivideString {
     public int solution(String s) {

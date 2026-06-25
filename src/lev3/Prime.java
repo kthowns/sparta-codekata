@@ -1,4 +1,4 @@
-package codes;
+package lev3;
 
 public class Prime {
 	public static void main(String[] args) {
