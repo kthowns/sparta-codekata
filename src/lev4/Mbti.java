@@ -1,3 +1,5 @@
+package lev4;
+
 class Mbti {
     // 69-lev4-성격 유형 검사하기
     public String solution(String[] survey, int[] choices) {

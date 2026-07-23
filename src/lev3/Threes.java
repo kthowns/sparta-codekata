@@ -1,3 +1,5 @@
+package lev3;
+
 class Threes {
     // 42-lev3-삼총사
     public int solution(int[] number) {
